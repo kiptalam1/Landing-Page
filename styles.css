@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+    outline: 1px solid blue;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    /* outline: 1px solid blue; */
+
+}
+
+header {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.navigation {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto;
+    gap: 800px;
+}
+
+.socials {
+
+    flex: 1;
+    gap: 50px;
+    width: 50%;
+}
+.logo img {
+    border-radius: 50%;
+}
+
+.socials ul {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.info {
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info .headline {
+    align-self: baseline;
+}
+
+.info .profile {
+
+}
+
+.profile img {
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
