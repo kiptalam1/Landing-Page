@@ -89,6 +89,7 @@ li a {
 
 .headline button:active {
     background-color: #800020;
+    color: #F5F5DC;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
 }
